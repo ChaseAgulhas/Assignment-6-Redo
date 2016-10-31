@@ -10,7 +10,7 @@ import com.chase.apps.pantry.domain.food.Onion;
 
 public interface OnionService {
 
-    void addInternet(Context context, Onion internet);
-    void updateInternet(Context context, Onion internet);
+    void addFood(Context context, Onion food);
+    void updateFood(Context context, Onion food);
     
 }

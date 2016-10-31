@@ -10,7 +10,7 @@ import com.chase.apps.pantry.domain.food.Tomato;
 
 public interface TomatoService {
 
-    void addInternet(Context context, Tomato internet);
-    void updateInternet(Context context, Tomato internet);
+    void addFood(Context context, Tomato food);
+    void updateFood(Context context, Tomato food);
     
 }

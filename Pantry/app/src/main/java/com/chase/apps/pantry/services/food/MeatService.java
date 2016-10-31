@@ -10,7 +10,7 @@ import com.chase.apps.pantry.domain.food.Meat;
 
 public interface MeatService {
 
-    void addInternet(Context context, Meat internet);
-    void updateInternet(Context context, Meat internet);
+    void addFood(Context context, Meat food);
+    void updateFood(Context context, Meat food);
     
 }

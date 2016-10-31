@@ -10,7 +10,7 @@ import com.chase.apps.pantry.domain.food.Sugar;
 
 public interface SugarService {
 
-    void addInternet(Context context, Sugar internet);
-    void updateInternet(Context context, Sugar internet);
+    void addFood(Context context, Sugar food);
+    void updateFood(Context context, Sugar food);
     
 }

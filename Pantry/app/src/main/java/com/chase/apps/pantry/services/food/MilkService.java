@@ -11,7 +11,7 @@ import com.chase.apps.pantry.domain.food.Milk;
 
 public interface MilkService {
 
-    void addInternet(Context context, Milk internet);
-    void updateInternet(Context context, Milk internet);
+    void addFood(Context context, Milk food);
+    void updateFood(Context context, Milk food);
     
 }

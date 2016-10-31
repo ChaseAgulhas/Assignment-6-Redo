@@ -10,6 +10,6 @@ import com.chase.apps.pantry.domain.food.Lettuce;
 
 public interface LettuceService {
 
-    void addInternet(Context context, Lettuce internet);
-    void updateInternet(Context context, Lettuce internet);
+    void addFood(Context context, Lettuce food);
+    void updateFood(Context context, Lettuce food);
 }

@@ -10,7 +10,7 @@ import com.chase.apps.pantry.domain.food.Water;
 
 public interface WaterService {
 
-    void addInternet(Context context, Water internet);
-    void updateInternet(Context context, Water internet);
+    void addFood(Context context, Water food);
+    void updateFood(Context context, Water food);
     
 }
